@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"1c4dc9f314e2638d","type":"text","text":"Cluster","x":580,"y":-480,"width":580,"height":520},
+		{"id":"708f6578819d14fc","type":"text","text":"Control Plane","x":620,"y":-400,"width":520,"height":120},
+		{"id":"ae3a69d5adeacebc","type":"text","text":"Node","x":620,"y":-220,"width":160,"height":240},
+		{"id":"8eadd017edefabd3","type":"text","text":"Node","x":980,"y":-220,"width":160,"height":240},
+		{"id":"c067c067abbe4a04","type":"text","text":"Node","x":800,"y":-220,"width":160,"height":240},
+		{"id":"117edfa39b6c0e9a","type":"text","text":"Pod","x":643,"y":-170,"width":115,"height":60},
+		{"id":"03af1f406492d006","type":"text","text":"Pod","x":823,"y":-170,"width":115,"height":60},
+		{"id":"f5ed3d777b11fe5e","type":"text","text":"Pod","x":1003,"y":-170,"width":115,"height":60},
+		{"id":"b210eba78de1e205","x":638,"y":-340,"width":125,"height":50,"type":"text","text":"ETCD"},
+		{"id":"a3b8da61e3783625","type":"text","text":"Scheduler","x":780,"y":-340,"width":158,"height":50},
+		{"id":"cf34fd19b03361f4","x":943,"y":-340,"width":175,"height":50,"type":"text","text":"API Server"},
+		{"id":"0578defae81aa0fb","x":580,"y":-840,"width":580,"height":250,"type":"text","text":"Rancher Desktop\n- Exposes port 6443\n\t- Requests are routed to the API Server"}
+	],
+	"edges":[
+		{"id":"f45b37c3499fcbc1","fromNode":"1c4dc9f314e2638d","fromSide":"top","toNode":"0578defae81aa0fb","toSide":"bottom","label":"Runs on"}
+	]
+}
